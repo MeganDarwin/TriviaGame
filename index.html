@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/app.js"></script> 
+
+</head>
+<body>
+  <div class="jumbotron">
+    <h1 class="text-center">Trivia Game</h1>
+    </div>
+
+    <div class = "container" id="start">
+
+     <div class= "row">
+       <div class = col-md-2></div>
+       <div class = col-md-8>
+       	  <div class="panel panel-default">
+       	   <p id ="quizstart"> Quiz start text will go here! </p>
+                    <input class="btn btn-default" id="StartButton" type="submit" value="Start">
+				</div>
+       	  </div>
+       </div>
+       <div class = col-md-2></div>
+     </div>  
+  <div class = "container" id="quiz">
+
+     <div class= "row">
+       <div class = col-md-2></div>
+       <div class = col-md-8>
+       	  <div class="panel panel-default">
+       	  <div id ="timer"> Time Remaining: </div>
+       	    <p id ="question"> Question will go here </p>
+       	    <form>
+                <div><input type="radio" name="ans" value="1"> <span id="option-1">[option one]</span> </div>
+                <div><input type="radio" name="ans" value="2"> <span id="option-2">[option two]</span> </div>
+                <div><input type="radio" name="ans" value="3"> <span id="option-3">[option three]</span> </div>
+                <div><input type="radio" name="ans" value="4"> <span id="option-4">[option four]</span> </div>
+            </form>
+                 <button id="answer-btn">Submit Answer</button> 
+				</div>
+       	  </div>
+       </div>
+       <div class = col-md-2></div>
+     </div>
+  </div>
+
+
+
+</body>
+</html>
